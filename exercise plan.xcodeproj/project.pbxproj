@@ -64,16 +64,32 @@
 			children = (
 				DEC3B435270076AB000E1F7D /* AppDelegate.swift */,
 				DEC3B437270076AB000E1F7D /* SceneDelegate.swift */,
-				DEC3B439270076AB000E1F7D /* ViewController.swift */,
-				DEC3B449270080EE000E1F7D /* Schedul.swift */,
-				DEC3B44B270086BF000E1F7D /* Study.swift */,
-				DEC3B44D270086F2000E1F7D /* Exercise.swift */,
-				DEC3B43B270076AB000E1F7D /* Main.storyboard */,
+				DEE30E542704540A007E2135 /* Controller */,
+				DEE30E5327045400007E2135 /* View */,
 				DEC3B43E270076AC000E1F7D /* Assets.xcassets */,
 				DEC3B440270076AC000E1F7D /* LaunchScreen.storyboard */,
 				DEC3B443270076AC000E1F7D /* Info.plist */,
 			);
 			path = "exercise plan";
+			sourceTree = "<group>";
+		};
+		DEE30E5327045400007E2135 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEC3B43B270076AB000E1F7D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEE30E542704540A007E2135 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEC3B449270080EE000E1F7D /* Schedul.swift */,
+				DEC3B44B270086BF000E1F7D /* Study.swift */,
+				DEC3B439270076AB000E1F7D /* ViewController.swift */,
+				DEC3B44D270086F2000E1F7D /* Exercise.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +315,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65N749B6LB;
 				INFOPLIST_FILE = "exercise plan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -317,6 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65N749B6LB;
 				INFOPLIST_FILE = "exercise plan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
